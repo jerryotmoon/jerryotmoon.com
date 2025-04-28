@@ -1,0 +1,44 @@
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.welcom{
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.right-section{
+  border-bottom: solid 2px;
+  border-bottom-color: lightgrey;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar-button{
+  flex: 1;
+
+  font-weight: 800px;
+  font-size: 25px;
+  font-weight: bold;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
