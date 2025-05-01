@@ -1,0 +1,10 @@
+.preview{
+  margin-top: 60px;
+  display: flex;
+}
+
+.preview-blog{
+  width: 1000px;
+  height: 5550px;
+  background-color: lightblue;
+}
