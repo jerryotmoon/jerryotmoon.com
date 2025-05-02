@@ -1,8 +1,17 @@
-.sidebar{
+.sidebar-block{
+  width: 200px;
   display: flex;
   flex-direction: column;
+  min-width: 200px;
+}
+
+.sidebar{
+  /*
+  display: flex;
+  flex-direction: column;
+  */
+  position: fixed;
   width: 200px;
-  padding-right: 10px;
 }
 
 .sidebar-intro{

@@ -1,7 +1,11 @@
 .preview{
   display: flex;
   flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
   min-width: 500px;
+  max-width: 1000px;
+  flex: 1;
 }
 
 .preview-blog{
@@ -9,6 +13,7 @@
   border-color: rgb(137, 137, 137);
   border-width: 3px;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .preview-blog-header{
@@ -51,4 +56,9 @@
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(182, 182, 182));
   font-size: 18px;
   text-align: end;
+}
+
+.preview-gallery{
+  height: 600px;
+  background-color: antiquewhite;
 }
