@@ -26,7 +26,7 @@
 
 .sidebar-contact{
   width: 200px;
-  height: 100px;
+  margin-top: 15px;
 }
 
 .sidebar-contact-sns{
@@ -40,5 +40,15 @@
 .sidebar-contact-sns img{
   height: 30px;
   width: 30px;
+  margin-right: 5px;
+}
+
+.sidebar-contact-sns a{
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-contact-sns a:hover{
+  cursor: pointer;
 }
 
