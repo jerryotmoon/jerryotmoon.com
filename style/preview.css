@@ -49,7 +49,7 @@
   margin: 20px;
   min-width: 400px;
   height: 500px;
-  border: solid;
+  border: solid lightgray;
   border-radius: 5px;
   border-width: 3px;
   box-shadow: 5px 5px rgb(239, 239, 239);
