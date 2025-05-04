@@ -8,7 +8,7 @@
   flex: 1;
 }
 
-.gallery-today-pick-title{
+.gallery-subtitle{
   font-size: 30px;
   font-weight: 300;
   padding-top: 15px;
@@ -38,6 +38,7 @@
 
 .gallery-today-pick-comment{
   padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 20px;
   text-align: center;
 }
@@ -49,4 +50,40 @@
 .gallery-today-pick-comment-tag-name:hover{
   cursor: pointer;
   text-shadow: #00c3ffde 1px 0 10px;
+}
+
+
+.gallery-collection-name-tag{
+  min-width: 500px;
+  background-color: white;
+  border: solid lightgrey;
+  border-width: 2px;
+  border-style: inset;
+  box-shadow: 5px 5px rgb(224, 224, 224);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-collection-tag{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.gallery-collection-tag-box{
+  margin: 4px;
+  padding: 5px;
+  border: solid lightgrey;
+  border-radius: 10px;
+}
+
+.gallery-collection-tag-box:hover{
+  cursor: pointer;
+  background-color: rgba(24, 24, 24, 0.844);
+  color: blanchedalmond;
 }
